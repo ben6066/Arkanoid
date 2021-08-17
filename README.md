@@ -2,6 +2,7 @@
 1. [Introduction](#introduction)
 2. [Dependencies](#dependencies)  
 3. [Installation](#installation)
+4. [Simulation](#simulation)
 
 
 ## Introduction
@@ -33,3 +34,6 @@ The game is implemented in Java using OOP principles:
     $ ant run -Dargs="1 2 4" // Runs specific stages (1, 2 and 4)
     ```
 5. Press the "P" button in order to pause the game and "Space" in order to resume.
+
+## Simulation
+![Arkanoid GIF](https://user-images.githubusercontent.com/58342591/129721598-06b924f3-4489-45d3-8f63-75ac38a94ed0.gif)
