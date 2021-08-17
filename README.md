@@ -18,16 +18,18 @@ The game is implemented in Java using OOP principles:
 ## Dependencies
 * Windows / Linux / macOS
 * Git
-* Keyboard that contains: Spacebar, 'P' and right and left arrows.
-
+* Keyboard that contains: Spacebar, "P" button, right and left arrows.
+* Apache Ant
 ## Installation
 1. Clone the repository:  
     ```
     $ git clone https://github.com/ben6066/Arkanoid.git
     ```
-2. run this commands:
+2. Install [Apache Ant](https://ant.apache.org/bindownload.cgi)
+3. [Apache Ant Installation Video Windows 10](https://www.youtube.com/watch?v=3eaW81yYIqY&t=353s&ab_channel=xscourse)
+4. Open CMD/Git Bash in the cloned directory and run one of the following commands:
     ```
-    $ make
-    $ make jar
-    $ make run
+    $ ant run // Runs all the stages one after one
+    $ ant run -Dargs="1 2 4" // Runs specific stages (1, 2 and 4)
     ```
+5. Press the "P" button in order to pause the game and "Space" in order to resume.
